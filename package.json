@@ -1,6 +1,6 @@
 {
-  "name": "@danielmoncada/angular-datetime-picker",
-  "version": "14.0.1",
+  "name": "@drake.s.deaton/angular-datetime-picker",
+  "version": "1.0.0",
   "description": "Angular Date Time Picker",
   "keywords": [
     "Angular",
@@ -43,11 +43,13 @@
     "@angular/platform-browser": "^13.3.5",
     "@angular/platform-browser-dynamic": "^13.3.5",
     "@angular/router": "^13.3.5",
+    "@danielmoncada/angular-datetime-picker": "DrakeSterlingDeaton/date-time-picker",
+    "@drake.s.deaton/angular-datetime-picker": "^1.0.0",
     "core-js": "^3.22.3",
     "moment": "^2.29.3",
     "moment-timezone": "^0.5.34",
     "np": "^6.5.0",
-    "rxjs": "^6.6.7", 
+    "rxjs": "^6.6.7",
     "tslib": "^2.4.0",
     "uuid": "^8.3.2",
     "zone.js": "~0.11.5"

@@ -64,7 +64,7 @@ export class OwlDateTimeContainerComponent<T>
     // retain start and end time
     private retainStartTime: T;
     private retainEndTime: T;
-    
+
     /**
      * Stream emits when try to hide picker
      * */
@@ -142,7 +142,7 @@ export class OwlDateTimeContainerComponent<T>
     get fromFormattedValue(): string {
         const value = this.picker.selecteds[0];
         return value
-            ? this.dateTimeAdapter.format(value, this.picker.formatString)
+            ? new Date(`${value}`).toLocaleDateString('en-GB', this.picker.formatString as Intl.DateTimeFormatOptions)
             : '';
     }
 
@@ -152,7 +152,7 @@ export class OwlDateTimeContainerComponent<T>
     get toFormattedValue(): string {
         const value = this.picker.selecteds[1];
         return value
-            ? this.dateTimeAdapter.format(value, this.picker.formatString)
+            ? new Date(`${value}`).toLocaleDateString('en-GB', this.picker.formatString as Intl.DateTimeFormatOptions)
             : '';
     }
 
