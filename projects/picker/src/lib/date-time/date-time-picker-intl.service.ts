@@ -63,10 +63,10 @@ export class OwlDateTimeIntl {
     setBtnLabel = 'Set';
 
     /** A label for the range 'from' in picker info */
-    rangeFromLabel = 'From';
+    rangeFromLabel = 'Departure Time';
 
     /** A label for the range 'to' in picker info */
-    rangeToLabel = 'To';
+    rangeToLabel = 'Arrival Time';
 
     /** A label for the hour12 button (AM) */
     hour12AMLabel = 'AM';

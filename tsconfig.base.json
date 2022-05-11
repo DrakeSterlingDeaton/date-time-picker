@@ -17,14 +17,6 @@
     "lib": [
       "es2018",
       "dom"
-    ],
-    "paths": {
-      "picker": [
-        "dist/picker"
-      ],
-      "picker/*": [
-        "dist/picker/*"
-      ]
-    }
+    ]
   }
 }
