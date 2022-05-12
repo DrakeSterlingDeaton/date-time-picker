@@ -13,9 +13,6 @@
     "material",
     "ngx"
   ],
-  "files": [
-    "dist"
-  ],
   "author": "Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan",
   "license": "MIT",
   "scripts": {

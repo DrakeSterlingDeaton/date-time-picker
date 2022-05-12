@@ -5,21 +5,24 @@
   To learn more about this file see: https://angular.io/config/solution-tsconfig.
 */
 {
-  "references": [
-    {
-      "path": "./src/tsconfig.app.json"
-    },
-    {
-      "path": "./src/tsconfig.spec.json"
-    },
-    {
-      "path": "./e2e/tsconfig.e2e.json"
-    },
-    {
-      "path": "./projects/picker/tsconfig.lib.json"
-    },
-    {
-      "path": "./projects/picker/tsconfig.spec.json"
-    }
-  ]
+    "files": [
+        "dist/"
+    ],
+    "references": [
+        {
+            "path": "./src/tsconfig.app.json"
+        },
+        {
+            "path": "./src/tsconfig.spec.json"
+        },
+        {
+            "path": "./e2e/tsconfig.e2e.json"
+        },
+        {
+            "path": "./projects/picker/tsconfig.lib.json"
+        },
+        {
+            "path": "./projects/picker/tsconfig.spec.json"
+        }
+    ]
 }
