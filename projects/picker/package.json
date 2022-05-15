@@ -1,6 +1,6 @@
 {
   "name": "@drake.s.deaton/angular-datetime-picker",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Angular Date Time Picker",
   "keywords": [
     "Angular",
@@ -16,7 +16,7 @@
   "author": "Maintained and updated by Daniel Moncada, original implementatiom by Daniel Pan",
   "license": "MIT",
   "files": [
-      "dist/"
+    "dist/"
   ],
   "repository": {
     "type": "git",
