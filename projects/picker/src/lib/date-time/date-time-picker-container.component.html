@@ -35,32 +35,32 @@
             [stepSecond]="picker.stepSecond"
             (selectedChange)="timeSelected($event)"></owl-date-time-timer>
 
-    <div *ngIf="picker.isInRangeMode"
+    <!-- <div *ngIf="picker.isInRangeMode"
          role="radiogroup"
          class="owl-dt-container-info owl-dt-container-row">
         <div role="radio" [tabindex]="activeSelectedIndex === 0 ? 0 : -1"
-             [attr.aria-checked]="activeSelectedIndex === 0"
-             class="owl-dt-control owl-dt-container-range owl-dt-container-from"
-             [ngClass]="{'owl-dt-container-info-active': activeSelectedIndex === 0}"
-             (click)="handleClickOnInfoGroup($event, 0)"
-             (keydown)="handleKeydownOnInfoGroup($event, to, 0)" #from>
+                [attr.aria-checked]="activeSelectedIndex === 0"
+                class="owl-dt-control owl-dt-container-range owl-dt-container-from"
+                [ngClass]="{'owl-dt-container-info-active': activeSelectedIndex === 0}"
+                (click)="handleClickOnInfoGroup($event, 0)"
+                (keydown)="handleKeydownOnInfoGroup($event, to, 0)" #from>
             <span class="owl-dt-control-content owl-dt-container-range-content" tabindex="-1">
                 <span class="owl-dt-container-info-label">{{fromLabel}}:</span>
                 <span class="owl-dt-container-info-value">{{fromFormattedValue}}</span>
             </span>
         </div>
         <div role="radio" [tabindex]="activeSelectedIndex === 1 ? 0 : -1"
-             [attr.aria-checked]="activeSelectedIndex === 1"
-             class="owl-dt-control owl-dt-container-range owl-dt-container-to"
-             [ngClass]="{'owl-dt-container-info-active': activeSelectedIndex === 1}"
-             (click)="handleClickOnInfoGroup($event, 1)"
-             (keydown)="handleKeydownOnInfoGroup($event, from, 1)" #to>
+                [attr.aria-checked]="activeSelectedIndex === 1"
+                class="owl-dt-control owl-dt-container-range owl-dt-container-to"
+                [ngClass]="{'owl-dt-container-info-active': activeSelectedIndex === 1}"
+                (click)="handleClickOnInfoGroup($event, 1)"
+                (keydown)="handleKeydownOnInfoGroup($event, from, 1)" #to>
             <span class="owl-dt-control-content owl-dt-container-range-content" tabindex="-1">
                 <span class="owl-dt-container-info-label">{{toLabel}}:</span>
                 <span class="owl-dt-container-info-value">{{toFormattedValue}}</span>
             </span>
         </div>
-    </div>
+    </div> -->
 
     <div *ngIf="showControlButtons" class="owl-dt-container-buttons owl-dt-container-row">
         <button class="owl-dt-control owl-dt-control-button owl-dt-container-control-button"
